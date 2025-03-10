@@ -61,12 +61,18 @@ const experiences: Experience[] = [
     type: "education",
   },
   {
-    title: "Senior Secondary",
+    title: "Intermediate",
     company: "Sr Junior College, Medchal",
     period: "May 2019 - Nov 2021",
-    description: "Completed senior secondary education with a GPA of 8.94/10.",
+    description: "Completed indermidiate in MPC education with a GPA of 8.94/10.",
     type: "education",
   },
+  {
+    title: "Secondary School",
+    company: "TSMS Gundala",
+    period: "Mar 2019",
+    description: "Completed senior secondary education with a GPA of 9.3/10.
+  }
 ]
 
 export default function ExperienceSection() {
