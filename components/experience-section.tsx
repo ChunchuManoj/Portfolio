@@ -71,7 +71,7 @@ const experiences: Experience[] = [
     title: "Secondary School",
     company: "TSMS Gundala",
     period: "Mar 2019",
-    description: "Completed senior secondary education with a GPA of 9.3/10.
+    description: "Completed senior secondary education with a GPA of 9.3/10.,
   }
 ]
 
