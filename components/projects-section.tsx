@@ -20,7 +20,7 @@ const projects: Project[] = [
     title: "AI Powered Portfolio",
     description:
       "This portfolio website is designed to highlight the professional journey of Chunchu Manoj. It includes sections for skills, projects, certifications, experience, and contact information.",
-    image: "/portfolio.jpg",
+    image: "/portfolio.png",
     technologies: ["React","Next.js","TypeScript","Tailwind CSS","Framer Motion","Lucide React"],
     github: "https://github.com/ChunchuManoj/portfolio"
   },
