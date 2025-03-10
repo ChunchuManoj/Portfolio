@@ -28,7 +28,7 @@ const projects: Project[] = [
     title: "Teacher Track Smart Board",
     description:
       "A gesture-based smart board system enabling touch-free control for writing, drawing, and erasing tasks, integrated with secure teacher identification using wearables. Achieved 95% accuracy in gesture recognition, enhancing classroom interactivity.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Connect%20Work-KhQr4LMXl3dHrmgyt2x31EEHiu6Rfp.png",
+    image: "/gesture.png",
     technologies: ["Python", "MediaPipe", "OpenCV", "YOLOv11", "Deep Learning"],
     github: "https://github.com/ChunchuManoj/Gesture-Based-Drawing-Using-Object-Detection",
   },
