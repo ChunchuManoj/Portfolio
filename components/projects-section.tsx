@@ -17,6 +17,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "AI Powered Portfolio",
+    description:
+      "This portfolio website is designed to highlight the professional journey of Chunchu Manoj. It includes sections for skills, projects, certifications, experience, and contact information.",
+    image: "/portfolio.jpg",
+    technologies: ["React","Next.js","TypeScript","Tailwind CSS","Framer Motion","Lucide React"],
+    github: "https://github.com/ChunchuManoj/portfolio"
+  },
+  {
     title: "Teacher Track Smart Board",
     description:
       "A gesture-based smart board system enabling touch-free control for writing, drawing, and erasing tasks, integrated with secure teacher identification using wearables. Achieved 95% accuracy in gesture recognition, enhancing classroom interactivity.",
