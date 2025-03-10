@@ -404,10 +404,9 @@ export default function SkillsSection() {
           <div className="bg-card/30 backdrop-blur-sm rounded-xl border border-primary/10 p-6 h-[500px] overflow-auto">
             {selectedSkill ? (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }}>
-                <h3 className={`text-2xl font-bold mb-2 ${isDarkMode ? 'text-white' : 'text-black'}`} style={{ color: selectedSkill.color }}>
-                    {selectedSkill.name}
+                <h3 className="text-2xl font-bold mb-2" style={{ color: selectedSkill.color }}>
+                   {selectedSkill.name}
                 </h3>
-
                 <div className="mb-4">
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/20 text-primary">
                     {selectedSkill.category}
