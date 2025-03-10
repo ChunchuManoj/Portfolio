@@ -11,6 +11,16 @@ body {
     text-wrap: balance;
   }
 }
+@layer utilities {
+  @media (max-width: 640px) {
+    #experience .text-lg {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+    #experience .text-xl {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  }
+}
 
 @layer base {
   :root {
